@@ -17,7 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Справочники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Документы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_ЖурнылыДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_ЖурналыДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Перечисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Отчеты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Обработки</xr:Item>
@@ -33,7 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_ПланыОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_КритерииОтбора</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_ХранилищаНастроек</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Метаданные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_МетаданныеСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_НаборыТестов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДымовыеТесты_Тесты</xr:Item>
 			</Content>

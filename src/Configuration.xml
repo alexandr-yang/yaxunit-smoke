@@ -47,7 +47,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>0.1.0</Version>
+			<Version>0.1.1</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -59,7 +59,7 @@
 			<Subsystem>ДымовыеТесты</Subsystem>
 			<CommonModule>ДымовыеТесты_Справочники</CommonModule>
 			<CommonModule>ДымовыеТесты_Документы</CommonModule>
-			<CommonModule>ДымовыеТесты_ЖурнылыДокументов</CommonModule>
+			<CommonModule>ДымовыеТесты_ЖурналыДокументов</CommonModule>
 			<CommonModule>ДымовыеТесты_Перечисления</CommonModule>
 			<CommonModule>ДымовыеТесты_Отчеты</CommonModule>
 			<CommonModule>ДымовыеТесты_Обработки</CommonModule>
@@ -75,7 +75,7 @@
 			<CommonModule>ДымовыеТесты_ПланыОбмена</CommonModule>
 			<CommonModule>ДымовыеТесты_КритерииОтбора</CommonModule>
 			<CommonModule>ДымовыеТесты_ХранилищаНастроек</CommonModule>
-			<CommonModule>ДымовыеТесты_Метаданные</CommonModule>
+			<CommonModule>ДымовыеТесты_МетаданныеСервер</CommonModule>
 			<CommonModule>ДымовыеТесты_НаборыТестов</CommonModule>
 			<CommonModule>ДымовыеТесты_Тесты</CommonModule>
 		</ChildObjects>
