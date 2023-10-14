@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Subsystem uuid="e0258893-ef66-40af-b6b9-da68e268b017">
+		<Properties>
+			<Name>ДТ_ДымовыеТесты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>Дымовые тесты</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_ТестыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_Тесты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_СлучайныеДанныеСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_НаборыТестов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТС_МетаданныеСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ОбщиеМакеты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ХранилищаНастроек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_КритерииОтбора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ПланыОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Задачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_БизнесПроцессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_РегистрыРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_РегистрыНакопления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_РегистрыБухгалтерии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_РегистрыСведений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ПланыВидовРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ПланыСчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ПланыВидовХарактеристик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Обработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Отчеты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Перечисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_ЖурналыДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Документы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДТ_Справочники</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

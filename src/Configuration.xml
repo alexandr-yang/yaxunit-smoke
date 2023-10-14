@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Configuration uuid="ba6b3404-cfbd-44c5-8167-a79bf7d35fa9">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -32,52 +32,75 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ДымовыеТесты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дымовые тесты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>Дымовые тесты</v8:content>
+				</v8:item>
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>ДымовыеТесты_</NamePrefix>
+			<NamePrefix>ДТ_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
-			<Vendor/>
-			<Version>0.1.1</Version>
+			<Vendor>Александр Янг</Vendor>
+			<Version>0.5.0</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright/>
-			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>Александр Янг</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>https://github.com/alexandr-yang</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>https://github.com/alexandr-yang/yaxunit-smoke</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>ДымовыеТесты</Subsystem>
-			<CommonModule>ДымовыеТесты_Справочники</CommonModule>
-			<CommonModule>ДымовыеТесты_Документы</CommonModule>
-			<CommonModule>ДымовыеТесты_ЖурналыДокументов</CommonModule>
-			<CommonModule>ДымовыеТесты_Перечисления</CommonModule>
-			<CommonModule>ДымовыеТесты_Отчеты</CommonModule>
-			<CommonModule>ДымовыеТесты_Обработки</CommonModule>
-			<CommonModule>ДымовыеТесты_ПланыВидовХарактеристик</CommonModule>
-			<CommonModule>ДымовыеТесты_ПланыСчетов</CommonModule>
-			<CommonModule>ДымовыеТесты_ПланыВидовРасчета</CommonModule>
-			<CommonModule>ДымовыеТесты_РегистрыСведений</CommonModule>
-			<CommonModule>ДымовыеТесты_РегистрыНакопления</CommonModule>
-			<CommonModule>ДымовыеТесты_РегистрыБухгалтерии</CommonModule>
-			<CommonModule>ДымовыеТесты_РегистрыРасчета</CommonModule>
-			<CommonModule>ДымовыеТесты_БизнесПроцессы</CommonModule>
-			<CommonModule>ДымовыеТесты_Задачи</CommonModule>
-			<CommonModule>ДымовыеТесты_ПланыОбмена</CommonModule>
-			<CommonModule>ДымовыеТесты_КритерииОтбора</CommonModule>
-			<CommonModule>ДымовыеТесты_ХранилищаНастроек</CommonModule>
-			<CommonModule>ДымовыеТесты_МетаданныеСервер</CommonModule>
-			<CommonModule>ДымовыеТесты_НаборыТестов</CommonModule>
-			<CommonModule>ДымовыеТесты_Тесты</CommonModule>
+			<Subsystem>ДТ_ДымовыеТесты</Subsystem>
+			<CommonModule>ДТ_Справочники</CommonModule>
+			<CommonModule>ДТ_Документы</CommonModule>
+			<CommonModule>ДТ_ЖурналыДокументов</CommonModule>
+			<CommonModule>ДТ_Перечисления</CommonModule>
+			<CommonModule>ДТ_Отчеты</CommonModule>
+			<CommonModule>ДТ_Обработки</CommonModule>
+			<CommonModule>ДТ_ПланыВидовХарактеристик</CommonModule>
+			<CommonModule>ДТ_ПланыСчетов</CommonModule>
+			<CommonModule>ДТ_ПланыВидовРасчета</CommonModule>
+			<CommonModule>ДТ_РегистрыСведений</CommonModule>
+			<CommonModule>ДТ_РегистрыНакопления</CommonModule>
+			<CommonModule>ДТ_РегистрыБухгалтерии</CommonModule>
+			<CommonModule>ДТ_РегистрыРасчета</CommonModule>
+			<CommonModule>ДТ_БизнесПроцессы</CommonModule>
+			<CommonModule>ДТ_Задачи</CommonModule>
+			<CommonModule>ДТ_ПланыОбмена</CommonModule>
+			<CommonModule>ДТ_КритерииОтбора</CommonModule>
+			<CommonModule>ДТ_ХранилищаНастроек</CommonModule>
+			<CommonModule>ДТ_ОбщиеМакеты</CommonModule>
+			<CommonModule>ДТС_МетаданныеСервер</CommonModule>
+			<CommonModule>ДТС_НаборыТестов</CommonModule>
+			<CommonModule>ДТС_Настройки</CommonModule>
+			<CommonModule>ДТС_СлучайныеДанныеСервер</CommonModule>
+			<CommonModule>ДТС_Тесты</CommonModule>
+			<CommonModule>ДТС_ТестыСервер</CommonModule>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
