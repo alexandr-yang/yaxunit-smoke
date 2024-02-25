@@ -51,8 +51,13 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Александр Янг</Vendor>
-			<Version>0.5.0</Version>
-			<BriefInformation/>
+			<Version>0.6.0</Version>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>Расширение для запуска дымовых тестов на фреймворке YAXUnit</v8:content>
+				</v8:item>
+			</BriefInformation>
 			<DetailedInformation/>
 			<Copyright>
 				<v8:item>
